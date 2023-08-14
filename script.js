@@ -8,6 +8,7 @@ const lookup = {
   'Y': 'L','Z': 'M', '?': '?', ',': ','
 };
 
+
 function rot13(encodedStr){
    let decodedArr = []; // Your Result goes here
   // Only change code below this line
@@ -24,4 +25,4 @@ function rot13(encodedStr){
 
 // console.log(rot13("SERR YBIR? NPPVBWBO"));
 
-module.exports = rot13;
+// module.exports = rot13;
